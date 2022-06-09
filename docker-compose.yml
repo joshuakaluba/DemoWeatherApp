@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+  weather-api:
+    build: ./api
+    restart: unless-stopped
+    ports:
+      - ${WEATHER_API_PORT}:${WEATHER_API_PORT}
+    environment:
+      WEATHER_API_PORT: ${WEATHER_API_PORT}
+      GoogleMapsApiKey: ${GoogleMapsApiKey}
+  weather-web:
+    build: ./web
+    restart: unless-stopped
+    ports:
+      - ${WEATHER_WEB_PORT}:80
