@@ -41,5 +41,3 @@ Once the dependencies are done installing, run the web application using the fol
 `npm run start`
 
 A web browser should open up at http://localhost:3000. The web application is now running.
-
-Alternatively a live version of the app is available at https://weather.kaluba.tech/
