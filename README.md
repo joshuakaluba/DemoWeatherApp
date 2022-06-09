@@ -4,7 +4,7 @@ The weather application is made of two parts, the website (written in React/Type
 
 ## Environment
 
-Before getting started, rename the `.env.sample` file to `.env` and change the port variable as required.
+Before getting started, rename the `.env.sample` file to `.env` and change the port variables as required.
 
 ## Dependencies
 
